@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+</head>
+
+<body>
+    <div>
+        <input type="checkbox" id="checkbox"/><label for="checkbox">Checkbox</label>
+    </div>
+    <div>
+        <input type="button" onclick="simulateClick();" value="Simulate click"/>
+    </div>
+    <div>
+        <input type="button" onclick="addHandler();" value="Add a click handler that calls preventDefault"/>
+    </div>
+    <div>
+        <input type="button" onclick="removeHandler();" value="Remove the click handler that calls preventDefault"/>
+    </div>
+    
+    <div>
+        <input id="datepicker" type="date">
+        <button onclick="document.getElementById('datepicker').focus()">Click Me!!!!!</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
